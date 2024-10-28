@@ -54,5 +54,10 @@ namespace FrontAPP1
             inicio2.Hide();
             this.Hide(); // Oculta la ventana actual de Preferencias
         }
+
+        private void Preferencias_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

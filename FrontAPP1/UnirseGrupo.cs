@@ -16,5 +16,10 @@ namespace FrontAPP1
         {
             InitializeComponent();
         }
+
+        private void UnirseGrupo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

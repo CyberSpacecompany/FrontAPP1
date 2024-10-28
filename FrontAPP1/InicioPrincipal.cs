@@ -56,12 +56,12 @@ namespace FrontAPP1
             grupoActual.Show();
         }
 
-        private async Task<List<string>> GetNotificationsFromBackend()
-        {
+       // private async Task<List<string>> GetNotificationsFromBackend()
+       // {
             // Aquí iría la lógica para hacer una llamada a tu backend y obtener las notificaciones
             // Este es un ejemplo ficticio
-            return new List<string>(); // Simulando que no hay notificaciones
-        }
+         //   return new List<string>(); // Simulando que no hay notificaciones
+      //  }
 
         private void CerrarSesionOps_Click(object sender, EventArgs e)
         {
@@ -74,6 +74,16 @@ namespace FrontAPP1
                     form.Close();
                 }
             }
+        }
+
+        private void InicioPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NotificacionesOps_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

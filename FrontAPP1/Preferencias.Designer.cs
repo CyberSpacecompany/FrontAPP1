@@ -112,6 +112,7 @@ namespace FrontAPP1
             this.DoubleBuffered = true;
             this.Name = "Preferencias";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Preferencias_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

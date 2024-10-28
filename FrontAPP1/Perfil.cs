@@ -16,5 +16,15 @@ namespace FrontAPP1
         {
             InitializeComponent();
         }
+
+        private void Perfil_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

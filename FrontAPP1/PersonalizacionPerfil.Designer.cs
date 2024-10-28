@@ -32,13 +32,13 @@ namespace FrontAPP1
             this.components = new System.ComponentModel.Container();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.PictureBoxPerfil = new System.Windows.Forms.PictureBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnHecho = new System.Windows.Forms.Button();
             this.btnFotoPerfil = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.PictureBoxPerfil = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxPerfil)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +50,7 @@ namespace FrontAPP1
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.PictureBoxPerfil);
             this.panel1.Controls.Add(this.txtDescripcion);
             this.panel1.Controls.Add(this.lblDescripcion);
@@ -60,27 +60,19 @@ namespace FrontAPP1
             this.panel1.Size = new System.Drawing.Size(998, 246);
             this.panel1.TabIndex = 2;
             // 
-            // PictureBoxPerfil
-            // 
-            this.PictureBoxPerfil.BackColor = System.Drawing.Color.Pink;
-            this.PictureBoxPerfil.Location = new System.Drawing.Point(12, 24);
-            this.PictureBoxPerfil.Name = "PictureBoxPerfil";
-            this.PictureBoxPerfil.Size = new System.Drawing.Size(228, 192);
-            this.PictureBoxPerfil.TabIndex = 7;
-            this.PictureBoxPerfil.TabStop = false;
-            // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(264, 148);
+            this.txtDescripcion.Location = new System.Drawing.Point(246, 148);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(424, 20);
             this.txtDescripcion.TabIndex = 5;
+            this.txtDescripcion.TextChanged += new System.EventHandler(this.TxtDescripcion_TextChanged);
             // 
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
             this.lblDescripcion.Font = new System.Drawing.Font("Mongolian Baiti", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescripcion.Location = new System.Drawing.Point(259, 116);
+            this.lblDescripcion.Location = new System.Drawing.Point(241, 116);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(158, 29);
             this.lblDescripcion.TabIndex = 3;
@@ -91,7 +83,7 @@ namespace FrontAPP1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(259, 46);
+            this.label1.Location = new System.Drawing.Point(246, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(256, 30);
             this.label1.TabIndex = 2;
@@ -125,6 +117,15 @@ namespace FrontAPP1
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // PictureBoxPerfil
+            // 
+            this.PictureBoxPerfil.BackColor = System.Drawing.Color.Pink;
+            this.PictureBoxPerfil.Location = new System.Drawing.Point(12, 24);
+            this.PictureBoxPerfil.Name = "PictureBoxPerfil";
+            this.PictureBoxPerfil.Size = new System.Drawing.Size(228, 192);
+            this.PictureBoxPerfil.TabIndex = 7;
+            this.PictureBoxPerfil.TabStop = false;
             // 
             // PersonalizacionPerfil
             // 

@@ -56,7 +56,7 @@ namespace FrontAPP1
             this.btnCrearusuario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.btnCrearusuario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnCrearusuario.ForeColor = System.Drawing.Color.Violet;
-            this.btnCrearusuario.Location = new System.Drawing.Point(616, 454);
+            this.btnCrearusuario.Location = new System.Drawing.Point(449, 356);
             this.btnCrearusuario.Name = "btnCrearusuario";
             this.btnCrearusuario.Size = new System.Drawing.Size(202, 49);
             this.btnCrearusuario.TabIndex = 0;
@@ -68,7 +68,7 @@ namespace FrontAPP1
             // 
             this.txtUsuarionuevo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuarionuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuarionuevo.Location = new System.Drawing.Point(166, 264);
+            this.txtUsuarionuevo.Location = new System.Drawing.Point(81, 217);
             this.txtUsuarionuevo.Name = "txtUsuarionuevo";
             this.txtUsuarionuevo.Size = new System.Drawing.Size(199, 22);
             this.txtUsuarionuevo.TabIndex = 1;
@@ -77,7 +77,7 @@ namespace FrontAPP1
             // 
             this.txtCreacontrasenia.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCreacontrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCreacontrasenia.Location = new System.Drawing.Point(166, 355);
+            this.txtCreacontrasenia.Location = new System.Drawing.Point(81, 295);
             this.txtCreacontrasenia.Name = "txtCreacontrasenia";
             this.txtCreacontrasenia.Size = new System.Drawing.Size(199, 22);
             this.txtCreacontrasenia.TabIndex = 2;
@@ -86,7 +86,7 @@ namespace FrontAPP1
             // 
             this.txtConfirmacontrasenia.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConfirmacontrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmacontrasenia.Location = new System.Drawing.Point(166, 441);
+            this.txtConfirmacontrasenia.Location = new System.Drawing.Point(77, 366);
             this.txtConfirmacontrasenia.Name = "txtConfirmacontrasenia";
             this.txtConfirmacontrasenia.Size = new System.Drawing.Size(199, 22);
             this.txtConfirmacontrasenia.TabIndex = 3;
@@ -95,7 +95,7 @@ namespace FrontAPP1
             // 
             this.txtEdad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEdad.Location = new System.Drawing.Point(616, 367);
+            this.txtEdad.Location = new System.Drawing.Point(449, 295);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(202, 22);
             this.txtEdad.TabIndex = 4;
@@ -104,7 +104,7 @@ namespace FrontAPP1
             // 
             this.txtCorreoelectronico.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCorreoelectronico.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreoelectronico.Location = new System.Drawing.Point(619, 267);
+            this.txtCorreoelectronico.Location = new System.Drawing.Point(449, 217);
             this.txtCorreoelectronico.Name = "txtCorreoelectronico";
             this.txtCorreoelectronico.Size = new System.Drawing.Size(202, 22);
             this.txtCorreoelectronico.TabIndex = 5;
@@ -114,7 +114,7 @@ namespace FrontAPP1
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Violet;
             this.label1.ForeColor = System.Drawing.Color.Violet;
-            this.label1.Location = new System.Drawing.Point(616, 287);
+            this.label1.Location = new System.Drawing.Point(446, 242);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(202, 13);
             this.label1.TabIndex = 6;
@@ -125,7 +125,7 @@ namespace FrontAPP1
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Violet;
             this.label2.ForeColor = System.Drawing.Color.Violet;
-            this.label2.Location = new System.Drawing.Point(163, 378);
+            this.label2.Location = new System.Drawing.Point(78, 320);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(202, 13);
             this.label2.TabIndex = 7;
@@ -136,7 +136,7 @@ namespace FrontAPP1
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Violet;
             this.label3.ForeColor = System.Drawing.Color.Violet;
-            this.label3.Location = new System.Drawing.Point(163, 287);
+            this.label3.Location = new System.Drawing.Point(78, 242);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(202, 13);
             this.label3.TabIndex = 8;
@@ -147,7 +147,7 @@ namespace FrontAPP1
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Violet;
             this.label4.ForeColor = System.Drawing.Color.Violet;
-            this.label4.Location = new System.Drawing.Point(616, 392);
+            this.label4.Location = new System.Drawing.Point(446, 320);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(202, 13);
             this.label4.TabIndex = 9;
@@ -158,7 +158,7 @@ namespace FrontAPP1
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Violet;
             this.label5.ForeColor = System.Drawing.Color.Violet;
-            this.label5.Location = new System.Drawing.Point(163, 463);
+            this.label5.Location = new System.Drawing.Point(78, 391);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(202, 13);
             this.label5.TabIndex = 10;
@@ -169,7 +169,7 @@ namespace FrontAPP1
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(614, 239);
+            this.label6.Location = new System.Drawing.Point(444, 189);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(210, 25);
             this.label6.TabIndex = 11;
@@ -180,7 +180,7 @@ namespace FrontAPP1
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(614, 339);
+            this.label7.Location = new System.Drawing.Point(444, 267);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(66, 25);
             this.label7.TabIndex = 12;
@@ -191,7 +191,7 @@ namespace FrontAPP1
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(161, 239);
+            this.label8.Location = new System.Drawing.Point(72, 189);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(179, 25);
             this.label8.TabIndex = 13;
@@ -202,7 +202,7 @@ namespace FrontAPP1
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(152, 327);
+            this.label9.Location = new System.Drawing.Point(72, 267);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(228, 25);
             this.label9.TabIndex = 14;
@@ -213,7 +213,7 @@ namespace FrontAPP1
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(161, 413);
+            this.label10.Location = new System.Drawing.Point(72, 339);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(232, 25);
             this.label10.TabIndex = 15;
@@ -221,12 +221,14 @@ namespace FrontAPP1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(883, 489);
+            this.button1.BackColor = System.Drawing.Color.Orchid;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(656, 459);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 46);
             this.button1.TabIndex = 16;
             this.button1.Text = "Cambiar modo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // CrearCuenta
             // 
@@ -234,7 +236,7 @@ namespace FrontAPP1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::FrontAPP1.Properties.Resources.crearcuentablancosinlogo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1003, 547);
+            this.ClientSize = new System.Drawing.Size(791, 517);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);

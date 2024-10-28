@@ -37,11 +37,11 @@ namespace FrontAPP1
             this.crearGrupoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.unirseAGrupoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miGrupoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eventosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notificacionesOps = new System.Windows.Forms.ToolStripMenuItem();
             this.CerrarSesionOps = new System.Windows.Forms.ToolStripMenuItem();
             this.Iniciolbl = new System.Windows.Forms.Label();
             this.BtnCambiarModoIP = new System.Windows.Forms.Button();
-            this.flowLayoutPanelPubli = new System.Windows.Forms.FlowLayoutPanel();
             this.MenuOps.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,7 +92,8 @@ namespace FrontAPP1
             this.gruposOps.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.crearGrupoToolStripMenuItem,
             this.unirseAGrupoToolStripMenuItem,
-            this.miGrupoToolStripMenuItem});
+            this.miGrupoToolStripMenuItem,
+            this.eventosToolStripMenuItem});
             this.gruposOps.ForeColor = System.Drawing.Color.White;
             this.gruposOps.Name = "gruposOps";
             this.gruposOps.Size = new System.Drawing.Size(115, 41);
@@ -122,6 +123,13 @@ namespace FrontAPP1
             this.miGrupoToolStripMenuItem.Text = "Mi Grupo";
             this.miGrupoToolStripMenuItem.Click += new System.EventHandler(this.MiGrupoToolStripMenuItem_Click);
             // 
+            // eventosToolStripMenuItem
+            // 
+            this.eventosToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Symbol", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eventosToolStripMenuItem.Name = "eventosToolStripMenuItem";
+            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(228, 34);
+            this.eventosToolStripMenuItem.Text = "Eventos";
+            // 
             // notificacionesOps
             // 
             this.notificacionesOps.ForeColor = System.Drawing.Color.White;
@@ -150,20 +158,15 @@ namespace FrontAPP1
             // 
             // BtnCambiarModoIP
             // 
+            this.BtnCambiarModoIP.BackColor = System.Drawing.Color.LavenderBlush;
             this.BtnCambiarModoIP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCambiarModoIP.Location = new System.Drawing.Point(32, 481);
+            this.BtnCambiarModoIP.ForeColor = System.Drawing.Color.Black;
+            this.BtnCambiarModoIP.Location = new System.Drawing.Point(16, 481);
             this.BtnCambiarModoIP.Name = "BtnCambiarModoIP";
-            this.BtnCambiarModoIP.Size = new System.Drawing.Size(81, 44);
+            this.BtnCambiarModoIP.Size = new System.Drawing.Size(83, 44);
             this.BtnCambiarModoIP.TabIndex = 3;
             this.BtnCambiarModoIP.Text = "Cambiar modo";
-            this.BtnCambiarModoIP.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanelPubli
-            // 
-            this.flowLayoutPanelPubli.Location = new System.Drawing.Point(155, 172);
-            this.flowLayoutPanelPubli.Name = "flowLayoutPanelPubli";
-            this.flowLayoutPanelPubli.Size = new System.Drawing.Size(585, 369);
-            this.flowLayoutPanelPubli.TabIndex = 4;
+            this.BtnCambiarModoIP.UseVisualStyleBackColor = false;
             // 
             // InicioPrincipal
             // 
@@ -171,12 +174,12 @@ namespace FrontAPP1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(890, 537);
-            this.Controls.Add(this.flowLayoutPanelPubli);
             this.Controls.Add(this.BtnCambiarModoIP);
             this.Controls.Add(this.Iniciolbl);
             this.Controls.Add(this.MenuOps);
             this.Name = "InicioPrincipal";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.InicioPrincipal_Load);
             this.MenuOps.ResumeLayout(false);
             this.MenuOps.PerformLayout();
             this.ResumeLayout(false);
@@ -198,6 +201,6 @@ namespace FrontAPP1
         private System.Windows.Forms.ToolStripMenuItem unirseAGrupoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem miGrupoToolStripMenuItem;
         private System.Windows.Forms.Button BtnCambiarModoIP;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelPubli;
+        private System.Windows.Forms.ToolStripMenuItem eventosToolStripMenuItem;
     }
 }

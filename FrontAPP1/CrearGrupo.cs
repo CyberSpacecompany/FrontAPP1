@@ -16,5 +16,10 @@ namespace FrontAPP1
         {
             InitializeComponent();
         }
+
+        private void btnIniciocg_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
