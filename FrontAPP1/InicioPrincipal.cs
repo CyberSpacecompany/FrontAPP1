@@ -20,6 +20,10 @@ namespace FrontAPP1
 
 
         }
+        // Suponer que hay un metodo que trae de la api las publicaciones
+        // no tendria parametros
+        // public Post ObtenerPublicaciones ()
+        // 
         private void PerfilOps_Click(object sender, EventArgs e)
         {
             Perfil perfil = new Perfil();

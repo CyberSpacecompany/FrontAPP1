@@ -76,5 +76,9 @@ namespace FrontAPP1
 
         public static string Nombreusuario { get; set; } // En una clase estática o en la clase de usuarios
 
+        private void CrearCuenta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

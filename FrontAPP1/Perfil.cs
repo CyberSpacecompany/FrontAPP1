@@ -26,5 +26,11 @@ namespace FrontAPP1
         {
 
         }
+
+        private void EditarCuentaOps_Click(object sender, EventArgs e)
+        {
+            PersonalizacionPerfil Editar = new PersonalizacionPerfil();
+            Editar.Show();
+        }
     }
 }

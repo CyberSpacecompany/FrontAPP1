@@ -257,6 +257,7 @@ namespace FrontAPP1
             this.DoubleBuffered = true;
             this.Name = "CrearCuenta";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.CrearCuenta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

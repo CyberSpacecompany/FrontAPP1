@@ -16,7 +16,9 @@ namespace FrontAPP1
         {
             InitializeComponent();
         }
-
+        // metodo que tenga el usuario que quiere unirse a un grupo 
+        // subir en la bd nuevo miembro
+        // public void UnirseAlGrupo (string nombre)
         private void UnirseGrupo_Load(object sender, EventArgs e)
         {
 

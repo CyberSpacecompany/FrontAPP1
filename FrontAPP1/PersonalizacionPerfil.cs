@@ -18,7 +18,8 @@ namespace FrontAPP1
             DatosUsuario.DescripcionPerfil = txtDescripcion.Text;
 
         }
-
+        // Metodo que manda la nueva foto y responde con foto actualizada
+        // public void ActualizarFotoPerfil
      
 
         private void BtnHecho_Click(object sender, EventArgs e)

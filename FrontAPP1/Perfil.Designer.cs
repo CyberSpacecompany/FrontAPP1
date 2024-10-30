@@ -84,6 +84,7 @@ namespace FrontAPP1
             this.EditarCuentaOps.Name = "EditarCuentaOps";
             this.EditarCuentaOps.Size = new System.Drawing.Size(153, 29);
             this.EditarCuentaOps.Text = "Editar cuenta";
+            this.EditarCuentaOps.Click += new System.EventHandler(this.EditarCuentaOps_Click);
             // 
             // Guardados
             // 
