@@ -16,5 +16,8 @@ namespace FrontAPP1
         {
             InitializeComponent();
         }
+        //Deberia de tener un método que tome un string y debuelva perfiles, post y grupos
+        // public void BuscarContenido(String buscar)
+        //y que ese metodo se le llame en la acción del boton buscar
     }
 }
